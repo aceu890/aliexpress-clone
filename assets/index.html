@@ -5,57 +5,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aliexpress - Compras en linea para productos  Electronicos populares... </title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./icons/favicon.png" type="image/x-icon">
 </head>
 <body>
+    <!-- sección loggin -->
     <div class="loggin">
         <ul class="menu">
             <li><a href="#">Vende en AliExpress</a>
-                <ul class="menu-desplegable">
+                <ul class="menu-desplegable" style="display: none;">
                     <li><a href="">Iniciar sesión como vendedor</a></li>
                     <li><a href="">中国卖家入驻</a></li>
                     <li><a href="">Registrarme como vendedor</a></li>
                 </ul>
             </li>
             <li><a href="#">Ayuda</a>
-                <ul class="menu-desplegable">
+                <ul class="menu-desplegable" style="display: none;">
                     <li><a href="">Servicio al cliente</a></li>
                     <li><a href="">Disputas</a></li>
                     <li><a href="">Informar de una infracción DPI</a></li>
                 </ul>
             </li>
             <li><a href="index.html">Proteccion del comprador</a></li>
-            <li><a href="#">App</a></li>
-            <li><a href="#">/Español/ CLP</a>
-                <ul class="seleccionar-pais">
+            <li><a href="#">
+                <img src="./icons/app.png" alt=""> 
+                App
+            </a></li>
+            <li><a href="#"> <!-- Enlace 5 pais -->
+                <img src="./icons/chile.png" alt="">
+                <span>Español</span>
+                <span>CLP</span></a>
+                <img src="./icons/flecha abajo.png" alt="">
+                <ul class="seleccionar-pais" style="display: none;"> <!-- Menu desplegable pais -->
                     <li>
-                        <span>Enviar a</span>
+                        Enviar a
                         <div class="caja-pais">
                             <img src="./icons/chile.png" alt=""> 
                             <h4>Chile</h4> 
+                            <!-- contenedor-pais -->
                             <div class="buscador">
                                 <input type="text" name="pais" placeholder="Buscar">
                                 <ul class="lista-pais">
-                                    <li>
+                                    <li class="cl-li">
                                         <img src="./icons/chile.png" alt="">
-                                        Chile
+                                        <span>Chile</span>
                                     </li>
-                                    <li>Argentina</li>
-                                    <li>Peru</li>
-                                    <li>Bolivia</li>
-                                    <li>Paraguay</li>
-                                    <li>Brasil</li>
-                                    <li>Uruguay</li>
+                                    <li class="arg">
+                                        <img src="./icons/argentina.png" alt="">
+                                        <span>Argentina</span>                                       
+                                    </li>
+                                    <li class="pe-li">
+                                        <img src="./icons/peru.png" alt="">
+                                        <span>Peru</span>                                       
+                                    </li>
+                                    <li class="bo-li">
+                                        <img src="./icons/bolivia.png" alt="">
+                                        <span>Bolivia</span>                                       
+                                    </li>
+                                    <li class="py-li">
+                                        <img src="./icons/paraguay.png" alt="">
+                                        <span>Paraguay</span>                                       
+                                    </li>
+                                    <li class="uy-li">
+                                        <img src="./icons/uruguay.png" alt="">
+                                        <span>Uruguay</span>                                       
+                                    </li>
+                                    <li class="br-li">
+                                        <img src="./icons/brasil.png" alt="">
+                                        <span>Brasil</span>                                       
+                                    </li>
+                                       
                                 </ul>
                             </div>
                             
                         </div>
                     </li>
+                    <!-- Idioma -->
+                    <li>
+                        Español
+                        <div class="caja-pais">                         
+                            <h4>Idioma</h4>                             
+                            <div class="buscador">
+                                <input type="text" name="pais" placeholder="Buscar">
+                                <ul class="lista-pais">
+                                    <li class="es">Español</li>
+                                    <li class="en">Ingles</li>
+                                    <li class="fr">Frances</li>
+                                    <li class="ru">Ruso</li>
+                                    <li class="it">Italiano</li>
+                                    <li class="ale">Aleman</li>
+                                    <li class="cl-li">Portugues</li>       
+                                </ul>
+                            </div>                        
+                        </div>
+                    </li>
+                    <!-- Moneda -->
+                    <li>
+                        Español
+                        <div class="caja-pais">                         
+                            <h4>Idioma</h4>                             
+                            <div class="buscador">
+                                <input type="text" name="pais" placeholder="Buscar">
+                                <ul class="lista-pais">
+                                    <li class="cl-peso">Peso Chileno</li>
+                                    <li class="arg-peso">Peso Argentino</li>
+                                    <li class="pe-peso">Soles</li>
+                                    <li class="bo-peso">Peso Boliviano</li>
+                                    <li class="uy-peso">Peso Paraguayo</li>
+                                    <li class="ur-peso">Peso Uruguayo</li>
+                                    <li class="br-peso">Real</li>       
+                                </ul>
+                            </div>                        
+                        </div>
+                    </li>
+
                 </ul>
+
             </li>
-            <li><a href="#">Lista de Deseos</a></li>
-            <li><a href="#">Mi cuenta</a></li>
+            <li><a href="#"><img src="./icons/corazon.png" alt=""> Lista de Deseos</a></li>
+            <li><a href="#"><img src="./icons/usuario.png" alt=""> Mi cuenta</a></li>
         </ul>
-    </div>
+    </div> 
+    <!-- fin loggin -->
+
 
 </body>
 </html>
