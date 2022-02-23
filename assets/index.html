@@ -12,7 +12,8 @@
     <!-- sección loggin -->
     <div class="loggin">
         <ul class="menu">
-            <li><a href="#">Vende en AliExpress</a>
+            <li><a href="#">Vende en AliExpress</a> 
+                <img class="flecha-abajo" src="./icons/flecha abajo.png" alt="">
                 <ul class="menu-desplegable" style="display: none;">
                     <li><a href="">Iniciar sesión como vendedor</a></li>
                     <li><a href="">中国卖家入驻</a></li>
@@ -20,6 +21,7 @@
                 </ul>
             </li>
             <li><a href="#">Ayuda</a>
+                <img class="flecha-abajo" src="./icons/flecha abajo.png" alt="">
                 <ul class="menu-desplegable" style="display: none;">
                     <li><a href="">Servicio al cliente</a></li>
                     <li><a href="">Disputas</a></li>
@@ -28,14 +30,14 @@
             </li>
             <li><a href="index.html">Proteccion del comprador</a></li>
             <li><a href="#">
-                <img src="./icons/app.png" alt=""> 
+                <img class="icono-menu-s" src="./icons/app.png" alt=""> 
                 App
             </a></li>
-            <li><a href="#"> <!-- Enlace 5 pais -->
-                <img src="./icons/chile.png" alt="">
+            <li> <!-- Enlace 5 pais -->
+                <img class="icono-menu-bandera" src="./icons/chile.png" alt="">
                 <span>Español</span>
-                <span>CLP</span></a>
-                <img src="./icons/flecha abajo.png" alt="">
+                <span>CLP</span>
+                <img class="flecha-abajo" src="./icons/flecha abajo.png" alt="">
                 <ul class="seleccionar-pais" style="display: none;"> <!-- Menu desplegable pais -->
                     <li>
                         Enviar a
@@ -122,8 +124,27 @@
                 </ul>
 
             </li>
-            <li><a href="#"><img src="./icons/corazon.png" alt=""> Lista de Deseos</a></li>
-            <li><a href="#"><img src="./icons/usuario.png" alt=""> Mi cuenta</a></li>
+            
+            <li><a href="#"><img class="icono-menu-s" src="./icons/corazon.png" alt="">Lista de Deseos</a></li>
+
+            <!-- Mi cuenta -->
+            
+            <li><img class="icono-menu-s" src="./icons/usuario.png" alt="">
+                <a href="#">Mi cuenta</a>
+                <img class="flecha-abajo" src="./icons/flecha abajo.png" alt="">    
+                <ul class="caja-cuenta" style="display: none;">                         
+                    <li class="cuenta-head">
+                        <h4>Bienvenid@ a Aliexpress</h4>                             
+                        <input type="submit" value="Registrarte">
+                        <input type="submit" value="Identificate">
+                    </li>    
+                    <li><a href="#">Mis pedidos</a></li>
+                    <li><a href="#">Centro de Mensajes</a></li>
+                    <li><a href="#">Lista de Deseos</a></li>
+                    <li><a href="#">Mis tiendas Favoritas</a></li>
+                    <li><a href="#">Mis cupones</a></li>                                           
+                </ul>
+            </li>
         </ul>
     </div> 
     <!-- fin loggin -->
